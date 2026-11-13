@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "name": "BIOL 101 unit quiz",
+  "time_limit": { "minutes": 25, "provenance": "stated" },
+  "total_points": { "value": 20, "provenance": "stated" },
+  "sections": [
+    {
+      "id": "s1",
+      "title": "",
+      "instructions": "Choose the ONE best answer for each question. Circle the letter of your choice. Each question is worth 1 point.",
+      "question_type": "multiple_choice",
+      "count": 20,
+      "points_per_question": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    }
+  ],
+  "question_types": [
+    {
+      "question_type": "multiple_choice",
+      "stem_words": { "min": 6, "max": 22 },
+      "options": { "count": 4, "labels": ["A", "B", "C", "D"] },
+      "sub_parts": null,
+      "answer_space": { "kind": "mark_option", "lines": 0 },
+      "show_work": false
+    }
+  ],
+  "difficulty_mix": { "recall": 0.7, "apply": 0.2, "analyze": 0.1 },
+  "voice_notes": [
+    "Stems are direct questions or sentence completions ending in a colon.",
+    "Every fifth question (5, 10, 15, 20) is a negative item with EXCEPT or NOT in capitals.",
+    "About three questions per quiz open with a short scenario: \"A student observes...\".",
+    "Options are short noun phrases in sentence case with no closing period.",
+    "No \"all of the above\" or \"none of the above\" options."
+  ],
+  "exemplars": [
+    { "question_type": "multiple_choice", "text": "Which organelle modifies, sorts and packages proteins for export from the cell?\nA. Nucleolus\nB. Golgi apparatus\nC. Peroxisome\nD. Centrosome", "never_copy": true },
+    { "question_type": "multiple_choice", "text": "All of the following are examples of passive transport EXCEPT:\nA. Osmosis\nB. Simple diffusion\nC. The sodium-potassium pump\nD. Facilitated diffusion", "never_copy": true },
+    { "question_type": "multiple_choice", "text": "A student places a plant cell in distilled water. The cell does not burst because of its:\nA. Central vacuole\nB. Cell wall\nC. Chloroplasts\nD. Plasma membrane", "never_copy": true }
+  ],
+  "layout": {
+    "paper_size": "letter",
+    "columns": 1,
+    "numbering": "continuous",
+    "number_format": "1.",
+    "points_placement": "section_header"
+  },
+  "not_reproduced": [],
+  "disagreements": [],
+  "source_samples": ["quiz-3-cell-structure.docx", "quiz-4-membranes.docx", "quiz-5-energy.docx"]
+}

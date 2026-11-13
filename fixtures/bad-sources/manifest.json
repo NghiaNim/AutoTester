@@ -1,0 +1,13 @@
+[
+  { "id": "empty-topic-list", "kind": "topic_list", "text": "", "why": "an empty topic list has nothing to write about" },
+  { "id": "whitespace-topic-list", "kind": "topic_list", "text": "  \n\t\n ", "why": "only whitespace" },
+  { "id": "blank-pdf", "kind": "file", "file": "blank.pdf", "why": "a PDF with one empty page" },
+  { "id": "empty-docx", "kind": "file", "file": "empty.docx", "why": "a valid Word file with no text" },
+  { "id": "corrupt-pptx", "kind": "file", "file": "corrupt.pptx", "why": "not a real PowerPoint file" },
+  { "id": "blank-image", "kind": "file", "file": "blank-page.png", "why": "a photo of a blank white page" },
+  { "id": "url-403", "kind": "url", "status": 403, "body": "<html><body><h1>403 Forbidden</h1></body></html>", "content_type": "text/html", "why": "the site blocks the request" },
+  { "id": "url-404", "kind": "url", "status": 404, "body": "<html><body><h1>Page not found</h1></body></html>", "content_type": "text/html", "why": "the page does not exist" },
+  { "id": "url-empty", "kind": "url", "status": 200, "body": "", "content_type": "text/html", "why": "a 200 response with no body" },
+  { "id": "url-js-shell", "kind": "url", "status": 200, "body": "<!doctype html><html><head><title>App</title><script src=\"/bundle.js\"></script></head><body><div id=\"root\"></div><noscript>You need to enable JavaScript to run this app.</noscript></body></html>", "content_type": "text/html", "why": "a JavaScript shell with no readable content" },
+  { "id": "url-video", "kind": "url", "status": 200, "body": "not really a video", "content_type": "video/mp4", "why": "video links are out of scope" }
+]

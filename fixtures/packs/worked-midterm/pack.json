@@ -1,0 +1,18 @@
+{
+  "id": "worked-midterm",
+  "split": "dev",
+  "description": "A five-problem, 50-point calculus midterm of multi-part worked problems with space to show work. Synthetic.",
+  "covers": ["worked_problem"],
+  "sample_subject": "Differential calculus",
+  "samples": [
+    { "file": "samples/midterm-fall.pdf", "held_back": false, "authoring_tool": "pdfLaTeX (TeX Live), article class", "pages": 3, "words": 195 },
+    { "file": "samples/midterm-spring.pdf", "held_back": false, "authoring_tool": "pdfLaTeX (TeX Live), article class", "pages": 3, "words": 210 },
+    { "file": "samples/midterm-summer.pdf", "held_back": true, "authoring_tool": "pdfLaTeX (TeX Live), article class", "pages": 3, "words": 202 }
+  ],
+  "materials": {
+    "subject": "Descriptive statistics and basic probability",
+    "deck": "materials/deck.pptx",
+    "web": { "live_url": null, "snapshot": "materials/web/snapshot.html" },
+    "topic_list": "materials/topic-list.txt"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mc-quiz",
+  "split": "dev",
+  "description": "A 20-question, four-option multiple-choice unit quiz from an introductory biology course. Synthetic.",
+  "covers": ["multiple_choice"],
+  "sample_subject": "Cell biology",
+  "samples": [
+    { "file": "samples/quiz-3-cell-structure.docx", "held_back": false, "authoring_tool": "docx 9 (npm), Word format", "pages": 3, "words": 411 },
+    { "file": "samples/quiz-4-membranes.docx", "held_back": false, "authoring_tool": "docx 9 (npm), Word format", "pages": 3, "words": 470 },
+    { "file": "samples/quiz-5-energy.docx", "held_back": true, "authoring_tool": "docx 9 (npm), Word format", "pages": 3, "words": 397 }
+  ],
+  "materials": {
+    "subject": "Plate tectonics",
+    "deck": "materials/deck.pptx",
+    "web": { "live_url": null, "snapshot": "materials/web/snapshot.html" },
+    "topic_list": "materials/topic-list.txt"
+  }
+}

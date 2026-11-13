@@ -1,0 +1,17 @@
+[
+  { "id": "f01", "fact": "The data set 4, 8, 6, 5, 7 has a mean of 6.", "needles": [["4, 8, 6, 5, 7"], ["mean"]], "deck_image_only": false },
+  { "id": "f02", "fact": "The median is resistant to outliers.", "needles": [["median"], ["resistant"], ["outlier"]], "deck_image_only": false },
+  { "id": "f03", "fact": "The sample variance divides by n - 1.", "needles": [["sample variance"], ["n - 1"]], "deck_image_only": false },
+  { "id": "f04", "fact": "The standard deviation is the square root of the variance.", "needles": [["standard deviation"], ["square root", "√"], ["variance"]], "deck_image_only": false },
+  { "id": "f05", "fact": "z = (x - μ) / σ.", "needles": [["z-score", "z score"], ["(x - μ) / σ", "(x - mu) / sigma", "\\frac{x-\\mu}{\\sigma}"]], "deck_image_only": false },
+  { "id": "f06", "fact": "Empirical rule: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations.", "needles": [["68%"], ["95%"], ["99.7%"]], "deck_image_only": false },
+  { "id": "f07", "fact": "IQR = Q3 - Q1.", "needles": [["iqr", "interquartile range"], ["q3 - q1"]], "deck_image_only": false },
+  { "id": "f08", "fact": "An outlier lies more than 1.5 x IQR below Q1 or above Q3.", "needles": [["outlier"], ["1.5"], ["iqr"]], "deck_image_only": false },
+  { "id": "f09", "fact": "Complement rule: P(not A) = 1 - P(A).", "needles": [["complement"], ["1 - p(a)"]], "deck_image_only": false },
+  { "id": "f10", "fact": "Addition rule: P(A or B) = P(A) + P(B) - P(A and B).", "needles": [["p(a) + p(b) - p(a and b)", "p(a) + p(b) - p(a ∩ b)"]], "deck_image_only": false },
+  { "id": "f11", "fact": "A and B are independent when P(A and B) = P(A) x P(B).", "needles": [["independent"], ["p(a) × p(b)", "p(a)p(b)", "p(a) * p(b)"]], "deck_image_only": false },
+  { "id": "f12", "fact": "Conditional probability: P(A | B) = P(A and B) / P(B).", "needles": [["conditional"], ["p(a and b) / p(b)", "p(a ∩ b) / p(b)"]], "deck_image_only": false },
+  { "id": "f13", "fact": "A binomial count with n = 20 and p = 0.3 has mean np = 6.", "needles": [["binomial"], ["mean"], ["n = 20"], ["0.3"]], "deck_image_only": true },
+  { "id": "f14", "fact": "A binomial count with n = 20 and p = 0.3 has variance np(1 - p) = 4.2.", "needles": [["np(1 - p)"], ["4.2"]], "deck_image_only": true },
+  { "id": "f15", "fact": "The central limit theorem rule of thumb is n at least 30.", "needles": [["central limit theorem"], ["at least 30", "≥ 30", ">= 30", "n > 30"]], "deck_image_only": false }
+]
