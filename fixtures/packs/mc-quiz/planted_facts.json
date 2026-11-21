@@ -1,0 +1,17 @@
+[
+  { "id": "f01", "fact": "Alfred Wegener proposed continental drift in 1912.", "needles": [["wegener"], ["1912"]], "deck_image_only": false },
+  { "id": "f02", "fact": "Pangaea began to break apart about 200 million years ago.", "needles": [["pangaea"], ["200 million"]], "deck_image_only": false },
+  { "id": "f03", "fact": "The lithosphere plates ride on the ductile asthenosphere.", "needles": [["lithosphere"], ["asthenosphere"]], "deck_image_only": false },
+  { "id": "f04", "fact": "Plates move about 2 to 10 centimeters per year.", "needles": [["2 to 10 centimeters", "2 to 10 cm", "2-10 centimeters", "2-10 cm"], ["per year", "a year", "each year", "/yr", "/year"]], "deck_image_only": false },
+  { "id": "f05", "fact": "The Mid-Atlantic Ridge is a divergent boundary.", "needles": [["mid-atlantic ridge"], ["divergent", "move apart", "moving apart"]], "deck_image_only": false },
+  { "id": "f06", "fact": "Harry Hess proposed seafloor spreading in 1962.", "needles": [["hess"], ["1962"]], "deck_image_only": false },
+  { "id": "f07", "fact": "Vine and Matthews explained the symmetric magnetic stripes as a record of magnetic reversals.", "needles": [["vine"], ["matthews"], ["magnetic"]], "deck_image_only": false },
+  { "id": "f08", "fact": "The oldest ocean floor is about 180 million years old.", "needles": [["180 million"]], "deck_image_only": false },
+  { "id": "f09", "fact": "Oceanic lithosphere subducts beneath continental lithosphere because it is denser.", "needles": [["subduct"], ["denser"]], "deck_image_only": false },
+  { "id": "f10", "fact": "The Himalayas formed where the Indian Plate meets the Eurasian Plate.", "needles": [["himalaya"], ["indian"], ["eurasian"]], "deck_image_only": false },
+  { "id": "f11", "fact": "The San Andreas Fault lies between the Pacific Plate and the North American Plate.", "needles": [["san andreas"], ["pacific"], ["north american"]], "deck_image_only": false },
+  { "id": "f12", "fact": "The Mariana Trench is about 11,000 m deep.", "needles": [["mariana"], ["11,000", "11000", "11 000"]], "deck_image_only": true },
+  { "id": "f13", "fact": "The Ring of Fire holds about 75% of the world's active volcanoes.", "needles": [["ring of fire"], ["75%", "75 percent"]], "deck_image_only": true },
+  { "id": "f14", "fact": "Hawaii formed over a hot spot, not at a plate boundary.", "needles": [["hawaii"], ["hot spot"]], "deck_image_only": false },
+  { "id": "f15", "fact": "Slab pull is considered the strongest driving force.", "needles": [["slab pull"], ["strongest"]], "deck_image_only": false }
+]

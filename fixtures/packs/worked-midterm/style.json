@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "name": "MATH 151 midterm",
+  "time_limit": { "minutes": 50, "provenance": "stated" },
+  "total_points": { "value": 50, "provenance": "stated" },
+  "sections": [
+    {
+      "id": "s1",
+      "title": "",
+      "instructions": "Show all work. Answers without justification receive no credit. No calculators. There are 5 problems worth a total of 50 points.",
+      "question_type": "worked_problem",
+      "count": 5,
+      "points_per_question": [10, 12, 10, 8, 10]
+    }
+  ],
+  "question_types": [
+    {
+      "question_type": "worked_problem",
+      "stem_words": { "min": 21, "max": 62 },
+      "options": null,
+      "sub_parts": { "pattern": "(a), (b), (c), each with its own points in square brackets", "typical_count": 2 },
+      "answer_space": { "kind": "blank", "lines": 8 },
+      "show_work": true
+    }
+  ],
+  "difficulty_mix": { "recall": 0.1, "apply": 0.6, "analyze": 0.3 },
+  "voice_notes": [
+    "Each problem opens with one imperative or scene-setting sentence, then lettered parts.",
+    "Problems run from routine computation (limits, derivatives) to applied word problems at the end.",
+    "Word problems ask for a justification or a one-sentence interpretation in the final part.",
+    "Terse, formal wording with no hints. Mathematics is typeset, never written out in words."
+  ],
+  "exemplars": [
+    { "question_type": "worked_problem", "text": "Problem 2. [12 points] Differentiate each function. You do not need to simplify your answers.\n(a) [4 points] $f(x) = x^3 e^{2x}$\n(b) [4 points] $g(x) = \\dfrac{x^2 + 1}{3x - 2}$\n(c) [4 points] $h(x) = \\ln(\\cos x)$", "never_copy": true },
+    { "question_type": "worked_problem", "text": "Problem 4. [8 points] A ladder $5$ m long rests against a vertical wall. The bottom of the ladder slides away from the wall at $0.5$ m/s.\n(a) [5 points] How fast is the top of the ladder sliding down the wall at the instant when the bottom is $3$ m from the wall?\n(b) [3 points] State the units of your answer and explain in one sentence what its sign means.", "never_copy": true }
+  ],
+  "layout": {
+    "paper_size": "letter",
+    "columns": 1,
+    "numbering": "continuous",
+    "number_format": "Problem 1.",
+    "points_placement": "before_stem"
+  },
+  "not_reproduced": [],
+  "disagreements": [],
+  "source_samples": ["midterm-fall.pdf", "midterm-spring.pdf", "midterm-summer.pdf"]
+}

@@ -1,0 +1,10 @@
+[
+  { "id": "t1", "name": "Mean and median" },
+  { "id": "t2", "name": "Variance and standard deviation" },
+  { "id": "t3", "name": "z-scores and the empirical rule" },
+  { "id": "t4", "name": "Quartiles, IQR and outliers" },
+  { "id": "t5", "name": "Complement and addition rules" },
+  { "id": "t6", "name": "Independence and conditional probability" },
+  { "id": "t7", "name": "The binomial distribution" },
+  { "id": "t8", "name": "The central limit theorem" }
+]

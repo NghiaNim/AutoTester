@@ -1,0 +1,10 @@
+[
+  { "id": "t1", "name": "Continental drift and its evidence" },
+  { "id": "t2", "name": "Lithosphere, asthenosphere and plate motion" },
+  { "id": "t3", "name": "Divergent boundaries" },
+  { "id": "t4", "name": "Seafloor spreading and magnetic stripes" },
+  { "id": "t5", "name": "Convergent boundaries and subduction" },
+  { "id": "t6", "name": "Transform boundaries" },
+  { "id": "t7", "name": "Hot spots" },
+  { "id": "t8", "name": "Forces that drive plate motion" }
+]

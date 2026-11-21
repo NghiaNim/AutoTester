@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Describing Data and Basic Probability: Course Notes | Open Course Notes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{font-family:Georgia,serif;max-width:46rem;margin:2rem auto;line-height:1.6}nav a{margin-right:1rem}aside{border:1px solid #ccc;padding:1rem}</style>
+<script>window.dataLayer = window.dataLayer || []; function track(e){ dataLayer.push({event: e}); } track("pageview");</script>
+</head>
+<body>
+<div id="cookie-banner" role="dialog">We use cookies to remember your reading position. <button>Accept all</button> <button>Manage choices</button></div>
+<header>
+<nav><a href="/">Home</a><a href="/courses">Courses</a><a href="/library">Library</a><a href="/login">Sign in</a></nav>
+</header>
+<main>
+<article>
+<h1>Describing Data and Basic Probability: Course Notes</h1>
+<p class="byline">Open Course Notes · 9 minute read</p>
+<p>These notes cover the first statistics unit: summarizing a data set with a few numbers, spotting unusual values, and the basic rules of probability.</p>
+<h2>Center</h2>
+<p>The mean of a data set is the sum of its values divided by how many values there are. For example, the data set 4, 8, 6, 5, 7 has a mean of 6, because the values add to 30 and there are five of them.</p>
+<p>The median is the middle value once the data are put in order. One extreme value can drag the mean a long way, but it barely moves the median. For that reason the median is called resistant to outliers.</p>
+<h2>Spread</h2>
+<p>To measure spread, find how far each value is from the mean, square those deviations and add them up. The sample variance divides that total by n − 1 rather than by n.</p>
+<p>The standard deviation is the square root of the variance, which puts it back in the same units as the data.</p>
+<h2>Standardizing</h2>
+<p>A z-score measures how unusual a value is. It is computed as z = (x − μ) / σ, the distance from the mean in units of standard deviation.</p>
+<p>For bell-shaped data the empirical rule applies: about 68% of values fall within one standard deviation of the mean, about 95% within two, and about 99.7% within three.</p>
+<h2>Quartiles and outliers</h2>
+<p>The quartiles split ordered data into four equal parts. The interquartile range, IQR = Q3 − Q1, is the width of the middle half of the data.</p>
+<p>A common rule calls a value an outlier when it is more than 1.5 × IQR below Q1 or more than 1.5 × IQR above Q3.</p>
+<h2>Probability rules</h2>
+<p>Three rules are used constantly.</p>
+<ul>
+  <li>Complement rule: P(not A) = 1 − P(A).</li>
+  <li>Addition rule: P(A or B) = P(A) + P(B) − P(A and B).</li>
+  <li>Conditional probability: P(A | B) = P(A and B) / P(B), provided P(B) is not zero.</li>
+</ul>
+<h2>Independence</h2>
+<p>Two events are independent when knowing that one happened does not change the probability of the other. In symbols, A and B are independent exactly when P(A and B) = P(A) × P(B).</p>
+<h2>The binomial distribution</h2>
+<p>A binomial setting has a fixed number n of independent trials, each with the same probability p of success.</p>
+<table>
+  <tr><th scope="row">Mean of a binomial count</th><td>np. With n = 20 and p = 0.3, the mean is 6.</td></tr>
+  <tr><th scope="row">Variance of a binomial count</th><td>np(1 − p). With n = 20 and p = 0.3, the variance is 4.2.</td></tr>
+</table>
+<h2>The central limit theorem</h2>
+<p>The central limit theorem says that the mean of a large random sample is approximately normally distributed, whatever the shape of the population. A common rule of thumb is that the approximation is good once n is at least 30.</p>
+</article>
+<aside>
+<h3>Popular this week</h3>
+<ul><li><a href="/notes/study-habits">Ten study habits that work</a></li><li><a href="/notes/exam-anxiety">Managing exam anxiety</a></li><li><a href="/notes/citation">How to cite a source</a></li></ul>
+<p>Subscribe to the newsletter for weekly study tips.</p>
+</aside>
+</main>
+<footer><p>© Open Course Notes. Terms of use · Privacy policy · Contact</p></footer>
+<script>document.getElementById("cookie-banner").addEventListener("click", function(){ this.remove(); });</script>
+</body>
+</html>
