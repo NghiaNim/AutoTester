@@ -1,0 +1,30 @@
+[
+  {
+    "at": "2026-11-13T05:30:33.442Z",
+    "fixtures": "dev",
+    "fresh": false,
+    "spend_usd": 0,
+    "model_calls": 0,
+    "cached_calls": 0,
+    "results": {
+      "E1": "fail",
+      "E2": "fail",
+      "E3": "fail",
+      "E4": "fail",
+      "E5": "fail",
+      "E6": "fail",
+      "E7": "fail",
+      "E8": "fail",
+      "E9": "fail",
+      "E10": "fail",
+      "E11": "fail",
+      "E12": "fail",
+      "E13": "fail",
+      "R1": "fail",
+      "R2": "fail",
+      "R3": "fail",
+      "R4": "fail",
+      "R5": "fail"
+    }
+  }
+]
