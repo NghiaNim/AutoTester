@@ -8,13 +8,14 @@ export type ModelConfig = Record<ModelRole, RoleConfig>;
 
 /**
  * Provisional until M3 picks each role by eval score (see DECISIONS.md).
- * Every ID was present in the OpenRouter catalogue on 2026-11-12.
+ * Every ID was present in the OpenRouter catalogue on 2026-11-12. Extract and read moved from
+ * gemini-4-carbon to gemini-4-hydrogen on 2026-11-27 (see DECISIONS.md).
  */
 export const PROVISIONAL_MODELS: ModelConfig = {
-  extract: { model: "google/gemini-4-carbon", temperature: 0 },
+  extract: { model: "google/gemini-4-hydrogen", temperature: 0 },
   write: { model: "anthropic/claude-sonnet-5.5", temperature: 0.7 },
   solve: { model: "openai/gpt-6.1-sol", temperature: 0 },
-  read: { model: "google/gemini-4-carbon", temperature: 0 },
+  read: { model: "google/gemini-4-hydrogen", temperature: 0 },
   grade: { model: "anthropic/claude-sonnet-5.5", temperature: 0.1 },
   judge: { model: "openai/gpt-6.1-sol", temperature: 0 },
 };
